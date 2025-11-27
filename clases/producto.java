@@ -1,5 +1,6 @@
+// la clase sera abstracta para poder heredar de ella
 package clases;
-public class producto 
+public abstract class producto 
 {
 
 // VARIABLES 
@@ -42,8 +43,9 @@ return precioInicial;
 
 
 
-// MÉTODO ABSTRACTO: las subclases tendrán que tener si o si su propia implementación
-// public abstract double calcularPrecioFinal();
+// MÉTODO ABSTRACTO: las subclases tendrán que tener si o si su propia implementación, desde producto no se puede calcular el precio de cualquier tipo de prodcuto,
+// por ello todo tipo de producto que herede de producto debe tener una forma propia de hacerlo (producto digital y producto fisico)
+public abstract double calcularElPrecioFinal();
 
 
 

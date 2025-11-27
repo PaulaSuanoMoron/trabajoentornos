@@ -26,8 +26,10 @@ this.costesEnvio = costesEnvio;
 }
 
 // MÉTODO PARA EL PRECIO CON ENVIO
-public double calcularPrecioFinal() 
+public double calcularElPrecioFinal() 
 {
-return getPrecioInicial() + this.costesEnvio;
+double precioConEnvio=0.0;
+precioConEnvio=getPrecioInicial() + this.costesEnvio;
+return precioConEnvio;
 }
 }

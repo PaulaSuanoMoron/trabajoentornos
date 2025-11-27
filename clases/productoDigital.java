@@ -4,12 +4,12 @@ public class productoDigital extends producto
 {
 
 // VARIABLE
-private String licencia;
+private int licencia;
 // (El enunciado pide establecer un IVA o descuentos para productos digitales)
-private double descuento= 0.15;
+private double descuento;
 
 // CONSTRUCTOR: hay que llamar al constructor de producto
-public productoDigital (String licencia, String nombre, String descripcion, int numSerie, int stock, int precioInicial, double descuento)
+public productoDigital (int licencia, String nombre, String descripcion, int numSerie, int stock, int precioInicial, double descuento)
 {
 // Super para acceder a la clase padre (producto)
 super(nombre, descripcion, numSerie, stock, precioInicial);
@@ -18,13 +18,18 @@ this.descuento= descuento;
 }
 
 // MÉTODOS: solo get ya que no se cambiará, por lo que un set no es necesario
-public String getLicencia() 
+public int getLicencia() 
 {
 return licencia;
 }
 
+public double getdescuento()
+{
+    return descuento;
+}
+
 // MÉTODOS: sacar el precio final
-public double calcularPrecioFinal()
+public double calcularElPrecioFinal()
 {
 double precioDescontado;
 precioDescontado=getPrecioInicial()-(getPrecioInicial()*descuento);
