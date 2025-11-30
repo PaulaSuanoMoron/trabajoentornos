@@ -1,7 +1,7 @@
 package codigo_generado;
 public class productoFisico {
     private double costesEnvio;
-    public void productoFisico(double costesEnvio, String nombre, String descripcion, int numSerie, int stock, double precioInicial) {
+    public void productoFisico(double costesEnvio, String nombre, String descripcion, int numSerie, double precioInicial) {
         // TODO: Implementar el m�todo
     }
     public double getCostesEnvio() {

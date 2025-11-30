@@ -2,7 +2,7 @@ package codigo_generado;
 public class productoDigital {
     private int licencia;
     private double descuento;
-    public void productoDigital(int licencia, String nombre, String descripcion, int numSerie, int stock, int precioInicial, double descuento) {
+    public void productoDigital(int licencia, String nombre, String descripcion, int numSerie, int precioInicial, double descuento) {
         // TODO: Implementar el m�todo
     }
     public int getLicencia() {
