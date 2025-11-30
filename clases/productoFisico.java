@@ -8,13 +8,13 @@ public class productoFisico extends producto
 private double costesEnvio;
 
 // CONSTRUCTOR
-public productoFisico(double costesEnvio, String nombre, String descripcion, int numSerie, int stock, double precioInicial)
+public productoFisico(double costesEnvio, String nombre, String descripcion, int numSerie, double precioInicial)
 {
-super(nombre, descripcion, numSerie, stock, precioInicial);
+super(nombre, descripcion, numSerie, precioInicial);
 this.costesEnvio = costesEnvio;
 }
 
-// MÉTODOS GET Y SET: los costes de envio al igual que los precios pueden necesitar ser cambiados asi que aqui si añadimos un set
+// MÉTODOS GET Y SET: los costes de envio  pueden necesitar ser cambiados asi que aqui si añadimos un set
 public double getCostesEnvio() 
 {
 return costesEnvio;

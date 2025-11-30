@@ -11,10 +11,10 @@ cliente primerCliente = new cliente ("Pepe", "García Moreno", 1, "pepegarciamor
 
 //Producto físico
 productoFisico monitor = new productoFisico(5.0, "Monitor gaming", "Monitor de alta resolución específico para jugadores de videojuegos.", 
-1234,100, 200.0);
+1234, 200.0);
 
 //Producto digital
-productoDigital software = new productoDigital(1234, "Windows11", "Sistema operativo de Windows11", 34567, 100, 100, 0.20);
+productoDigital software = new productoDigital(1234, "Windows11", "Sistema operativo de Windows11", 34567, 100, 0.20);
 
 //PEDIDO
 pedido pedidoPrimerCliente = new pedido (primerCliente);

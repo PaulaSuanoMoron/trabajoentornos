@@ -10,7 +10,7 @@ private int numSerie;
 private double precioInicial;
 
 // CONSTRUCTOR: para inicializar las variables que han sido creadas anteriormente
-public producto (String nombre, String descripcion, int numSerie, int stock, double precioInicial)
+public producto (String nombre, String descripcion, int numSerie, double precioInicial)
 {
 this.nombre= nombre;
 this.descripcion= descripcion;
@@ -18,7 +18,7 @@ this.numSerie= numSerie;
 this.precioInicial= precioInicial;
 }
 
-// MÉTODOS: get (incluyo todos los atributos) y set (incluyo stock y precio ya que pueden cambiar)
+// MÉTODOS: get (incluyo todos los atributos)
 public String getNombre() 
 {
 return nombre;

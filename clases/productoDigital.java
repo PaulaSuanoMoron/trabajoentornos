@@ -9,10 +9,10 @@ private int licencia;
 private double descuento;
 
 // CONSTRUCTOR: hay que llamar al constructor de producto
-public productoDigital (int licencia, String nombre, String descripcion, int numSerie, int stock, int precioInicial, double descuento)
+public productoDigital (int licencia, String nombre, String descripcion, int numSerie, int precioInicial, double descuento)
 {
 // Super para acceder a la clase padre (producto)
-super(nombre, descripcion, numSerie, stock, precioInicial);
+super(nombre, descripcion, numSerie, precioInicial);
 this.licencia= licencia;
 this.descuento= descuento;
 }
